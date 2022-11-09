@@ -129,8 +129,13 @@ header{
     line-height: 1.8;
     padding: 30px;
     margin-bottom: 30px;
-    
-    
+
+}
+
+.row-main-col{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .margin-top-30{
@@ -186,6 +191,29 @@ footer{
     color: white;
     text-align: center;
     padding: 50px 0;
+}
+
+/* media query  */
+
+@media screen and (min-width:768px) {
+    .row-main{
+        flex-direction: row;
+    }
+    
+    .col-25{
+        display: flex;
+    }
+
+    .col-60{
+        margin: 20px 10px
+    }
+
+   .col-30{
+    margin-bottom:0;
+    margin: 20px 10px;
+
+   }
+
 }
 
 
