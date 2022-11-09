@@ -91,6 +91,7 @@ header{
 
 .col-50{
     padding: 30px;
+    line-height: 1.8;
 }
 
 
@@ -118,8 +119,29 @@ header{
     border-radius: 100%;
     padding: 5px 10px;
     border-style: none;
+}
 
+.col-25{
+    text-align: center;
+    line-height: 1.8;
+    padding: 30px;
+    margin-bottom: 30px;
+    
+    
+}
 
+.margin-top-30{
+    margin-top: 30px
+}
+
+.col-25 img{
+    width: 80%;
+    border-radius: 100%
+}
+
+.background-violet-border{
+    background-color:  #9792e4;
+    border-radius: 40px;
 }
 
 
