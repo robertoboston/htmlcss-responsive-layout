@@ -72,13 +72,16 @@ header{
 }
 
 .col-30{
+   
+}
+
+.style-col{
     background-color: #b5ddff;
-    padding: 30px;
     border-radius: 40px;
+    padding: 30px;
     margin-top: 30px;
     text-align: center;
     line-height: 1.8;
-    
 }
 
 .col-30 i{
@@ -142,6 +145,34 @@ header{
 .background-violet-border{
     background-color:  #9792e4;
     border-radius: 40px;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.font-size-50{
+    font-size: 40px;
+}
+
+
+.style-col-2{
+    background-color: white;
+    text-align: left;
+    border-radius: 40px;
+    line-height: 1.8;
+    border-radius: 40px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.font-size-30{
+    font-size: 30px;
+}
+
+.col-30 img{
+    width: 50%;
+    border-radius: 100%;
 }
 
 
