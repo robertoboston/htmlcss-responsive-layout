@@ -124,6 +124,11 @@ header{
     border-style: none;
 }
 
+.row-main-col-2{
+    display: flex;
+    flex-direction: column;
+}
+
 .col-25{
     text-align: center;
     line-height: 1.8;
@@ -198,6 +203,7 @@ footer{
 @media screen and (min-width:768px) {
     .row-main{
         flex-direction: row;
+        justify-content: center;
     }
     
     .col-25{
@@ -205,16 +211,60 @@ footer{
     }
 
     .col-60{
-        margin: 20px 10px
+        margin: 20px 10px;
+        width: 60%;
     }
 
    .col-30{
     margin-bottom:0;
-    margin: 20px 10px;
+    margin: 20px 6px;
+    width: 30%;
 
    }
 
+   .col-benefit{
+    margin: 20px 20px;
+   }
+
+  
+
 }
+
+@media screen and (min-width:992px) {
+
+    .row-main-col{
+        flex-direction: row;
+    }
+
+    .col-50{
+        width: 50%;
+        margin: 50px 50px;
+    }
+
+    .col-60{
+        display: flex;
+    }
+
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+   
+    
+}
+
+
+@media screen and (min-width:1200px) {
+    .container {
+        width: 70%;
+    }
+    
+    .col-50 img{
+        width: 50%;
+    }
+}
+
 
 
 
