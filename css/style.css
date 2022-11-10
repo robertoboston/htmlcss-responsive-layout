@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+body{
+    font-family: 'montserrat', sans-serif;
+}
+
 /* start header  */
  
 header{
@@ -72,14 +76,28 @@ header{
     padding-bottom: 0;
     border-radius: 40px;
     line-height: 1.8;
+    text-align: center;
    
 }
 
 .col-60 h3 {
     text-align: center;
     margin-bottom: 30px;
+    color: #0084fd;
 }
 
+.text-color{
+    color: #0084fd;
+}
+
+.button-blue{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border-style: none;
+    padding: 10px 30px;
+    border-radius: 40px;
+}
 
 .col-60 img{
     width: 100%
@@ -90,6 +108,10 @@ header{
 
 .margin-bottom-30{
     margin-bottom: 30px;
+}
+
+.color-white{
+    color: white;
 }
 
 
@@ -136,6 +158,38 @@ header{
     text-align: center;
 }
 
+.number-card{
+    color: #9792e4;
+    font-size: 40px;
+}
+
+.card-title{
+    color: #9792e4;
+}
+
+.col-70 h1{
+    font-size: 2rem;
+}
+
+.button-card{
+    background-color: #9792e4;
+    color: white;
+    border-style: none;
+    padding: 10px 30px;
+    border-radius: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.section-title{
+    color: white;
+    padding: 50px;
+}
+
+.color-violet{
+    color: #9792e4;;
+}
+
 .style-button{
     background-color:  #9792e4;
     border-radius: 100%;
@@ -162,6 +216,17 @@ header{
     width: 100%;
 }
 
+.row-main-cards{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.img-paragraph{
+    color: #9792e4;
+    font-size: 20px;
+}
+
 .margin-top-30{
     margin-top: 30px
 }
@@ -184,11 +249,11 @@ header{
     font-size: 40px;
 }
 
-
-
 .col-70{
-    width: 70%;
+    margin-right: 50px;
 }
+
+
 
 
 .style-col-2{
@@ -228,6 +293,19 @@ footer{
     margin: 0 auto;
 }
 
+.color-yellow{
+    color: #fdc15f;
+    font-size: 50px;
+}
+
+.button-footer{
+    color: #9792e4;
+    background-color: white;
+    border-style: none;
+    border-radius: 40px;
+    padding: 20px 30px;
+}
+
 /* media query  */
 
 @media screen and (min-width:768px) {
@@ -243,6 +321,7 @@ footer{
     .col-60{
         margin: 20px 10px;
         width: 60%;
+        
     }
 
    .col-30{
@@ -253,7 +332,34 @@ footer{
    }
 
    .col-benefit{
-    margin: 20px 20px;
+    margin: 10px 10px;
+   }
+
+   .row-main-cards{
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+   }
+
+   .col-benefit{
+    width: calc(100% / 2 - 20px)
+   }
+
+   .col-60{
+    text-align: left;
+   }
+
+   .col-60 h3{
+    text-align: left;
+   }
+
+   .col-25{
+    text-align: left;
+   }
+
+   .col-70{
+    text-align: left;
+    width: 70%;
    }
 
    
@@ -269,6 +375,7 @@ footer{
     .row-main-col{
         flex-direction: row;
     }
+
 
     .col-50{
         width: 50%;
@@ -308,7 +415,20 @@ footer{
         padding: 5px 20px;
         border-radius: 40px;
     }
+
+    .row-main-cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+       }
     
+       .col-benefit{
+        width: calc(100% / 3 - 20px)
+       }
+    
+       .content-col-25{
+        font-size: 20px;
+       }
 
 }
 
@@ -317,7 +437,7 @@ footer{
 
 @media screen and (min-width:1200px) {
     .container {
-        width: 70%;
+        width: 60%;
     }
     
     .col-50 img{
